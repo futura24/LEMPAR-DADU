@@ -5,7 +5,7 @@ import path from 'node:path';
 // base './' membuat hasil build bisa dibuka dari sub-folder (GitHub Pages)
 // maupun dari root domain (Vercel/Netlify) tanpa perubahan konfigurasi.
 export default defineConfig({
-  base: './',
+  base: '/LEMPAR DADU/',
   plugins: [react()],
   resolve: {
     alias: { '@': path.resolve(__dirname, './src') },
